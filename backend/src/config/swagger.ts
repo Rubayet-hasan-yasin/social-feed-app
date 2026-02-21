@@ -19,7 +19,7 @@ const options: swaggerJsdoc.Options = {
         description: "Development server",
       },
       {
-        url: `http://localhost:8000`,
+        url: `https://social-feed-app-chi.vercel.app/`,
         description: "Production server",
       },
     ],
@@ -85,7 +85,7 @@ const options: swaggerJsdoc.Options = {
           },
         },
 
-        // ─── Post ────────────────────────────────────────────────────
+        // ─── Post 
         Post: {
           type: "object",
           properties: {
@@ -140,7 +140,7 @@ const options: swaggerJsdoc.Options = {
           },
         },
 
-        // ─── Comment ─────────────────────────────────────────────────
+        // ─── Comment
         Comment: {
           type: "object",
           properties: {
@@ -163,7 +163,7 @@ const options: swaggerJsdoc.Options = {
           },
         },
 
-        // ─── Generic ─────────────────────────────────────────────────
+        // ─── Generic 
         SuccessResponse: {
           type: "object",
           properties: {
