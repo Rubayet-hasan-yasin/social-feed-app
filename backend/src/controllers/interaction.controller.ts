@@ -134,7 +134,7 @@ export const getComments = async (req: Request, res: Response): Promise<void> =>
     }
 
     const page = Math.max(1, parseInt(req.query.page as string) || 1);
-    const limit = Math.min(50, Math.max(1, parseInt(req.query.limit as string) || 10));
+    const limit = Math.min(50, Math.max(1, parseInt(req.query.limit as string) || 50));
     const skip = (page - 1) * limit;
 
     const [comments, total] = await Promise.all([

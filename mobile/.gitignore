@@ -9,6 +9,8 @@ dist/
 web-build/
 expo-env.d.ts
 
+google-services.json
+
 # Native
 .kotlin/
 *.orig.*
@@ -36,6 +38,8 @@ yarn-error.*
 # typescript
 *.tsbuildinfo
 
+# test coverage
+coverage/
 app-example
 
 # generated native folders
